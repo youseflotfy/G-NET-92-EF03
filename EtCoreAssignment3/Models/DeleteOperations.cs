@@ -91,7 +91,7 @@ internal static class DeleteOperations
             Console.WriteLine($"Error: Failed to delete category safely: {ex.Message}");
         }
     }
-
+     
     public static async Task DeleteCourseWithEnrollmentsAsync(OnlineLearningContext context, int courseId)
     {
         try
